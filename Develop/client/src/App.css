@@ -1,0 +1,69 @@
+/* Tipografía principal */
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f8f9fa; /* gris claro */
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+
+/* Títulos con estilo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+/* Párrafos secundarios */
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Espaciado entre tarjetas */
+.card {
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo del hero / sección superior */
+.text-light.bg-dark.p-5 {
+  background-color: #343a40 !important;
+  padding: 3rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+/* Botón de guardar libro */
+.btn-info {
+  margin-top: 1rem;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Ajustes de formularios */
+form {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Centrado del contenedor */
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 1rem;
+}
